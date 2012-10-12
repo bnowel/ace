@@ -7,18 +7,17 @@
 .project
 .settings/
 .settings.xml
+.settings
 .c9settings.xml
+.c9revisions
 .settings.xml.old
 .*.gz
 
 # A handy place to put stuff that git should ignore:
 /ignore/
-support/async/
-support/jsdom/
-support/node-htmlparser/
-support/node-o3-xml/
-support/requirejs/
+node_modules/
+tool/node_modules/
 
-/node_modules
-support/node-o3-xml-v4/
 .git-ref
+npm-debug.log
+deps/

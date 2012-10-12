@@ -1,0 +1,12 @@
+include ../../common_layout
+include lib
+
+#documentation.span8
+    -if (isIndex)
+        != content
+    -else
+        mixin api()
+
+    mixin endingScripts
+
+    div(id="disqus_thread")
